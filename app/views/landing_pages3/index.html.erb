@@ -1,0 +1,61 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124055473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124055473-1');
+</script>
+
+  </head>
+<header>
+            <div class="container-fluid">
+                    <div id="banner1" ></div>
+                    <div id="banner2" ></div>
+             </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#"><%= image_tag 'thp.png',class:"logo" %> The Hacking Project</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Qui somme nous?</a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Formation
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Fonctionnement</a>
+                  <a class="dropdown-item" href="#">Sessions</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </nav>
+    </header>
+
+
+    <div class="text">
+   <h1> Apprends a coder </h1>
+
+   <h2> Gratuitement, en 3 mois </h2>
+
+   <p> Tu vas apprendre HTML, CSS, Ruby, Rails, JavaScript et biens plus encore ! </p>
+   <h3>Inscrivez-vous à notre newsletter !</h3>
+   <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
+      <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
+      <%= submit_tag("Sign me up!") %>
+   <% end %>
+
+     </div>
+    </div>
+
+    
