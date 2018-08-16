@@ -1,4 +1,4 @@
-require 'dotenv'
+require 'dotenv-rails'
 require 'gibbon'
 Dotenv.load
 
