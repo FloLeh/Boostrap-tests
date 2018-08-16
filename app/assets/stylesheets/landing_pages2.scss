@@ -1,0 +1,97 @@
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 2em;
+    transition: padding cubic-bezier(0.36, 0.98, 0.65, 1.25) 0.5s;
+  }
+
+  h1:hover {
+    /*padding-left: 400px;*/
+  }
+
+footer {
+    background-color: rgba(78, 106, 34, 0.6);
+  }
+
+  .footer-nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: rox;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer li {
+    list-style: none;
+    padding-left: 40px;
+  }
+
+  footer a:hover {
+    border-color: rgba(0,0,0,0.5);
+    opacity: 0.8;
+  }
+
+  .page-background {
+    background-image: asset_url ('photo-student-thp.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+
+.cta {
+  position: relative;
+  top: 35%;
+  transform: translateY(-35%);
+  background: rgba(0,0,0,0.5);
+  padding: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  margin-bottom: 0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float:left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(76, 114, 175);
+}
