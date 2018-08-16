@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: 'emailapi#index'
   post 'emailapi/subscribe', to: 'emailapi#subscribe'
-  get 'home', to: 'landing_pages#index'
+  get 'xXnicobgdu44Xx', to: 'landing_pages#index', as: "xXnicobgdu44Xx"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
