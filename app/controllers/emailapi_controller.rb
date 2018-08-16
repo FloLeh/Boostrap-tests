@@ -15,9 +15,6 @@ class EmailapiController < ApplicationController
         status: "subscribed"
       }
     )
-
-    respond_to do |format|
-      format.json{render :json => {:message => "You have been Successfully added to the list! :)"}}
-        end
-      end
+    redirect_to '/', success: "Vous êtes inscrit à la Newsletter"
+  end
 end
