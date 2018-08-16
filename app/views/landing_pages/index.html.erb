@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ 
+  <body>
+  <header>
+  <nav class="navbar navbar-nav bg-dark"> 
+     <h1 class="text-primary"> The Hacking Project </h1>
+   </nav> 
+
+ </header>
+  <div class="cover">
+    <div class="text">
+   <h1> Apprends a coder </h1>
+   
+   <h2> Gratuitement, en 3 mois </h2>
+   
+   <p> Tu va apprendre HTML, CSS, Ruby, Rails, JavaScript et biens plus encore ! </p>
+   <h3>Inscrivez-vous à notre newsletter !</h3>
+   <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
+      <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
+      <%= submit_tag("Sign me up!") %>
+   <% end %>
+   
+     </div>
+   </div>
+
+   
+  <footer>
+    <nav class="navbar-nav bg-dark">
+    <ul class="list-inline">
+    <li class="list-inline-item"> <a href="https://www.facebook.com/thehackingproject/">Facebook</a></li>
+    <li class="list-inline-item"><a href="https://twitter.com/the_hacking_pro">Twitter</a></li>
+    <li class="list-inline-item"><a href="https://fr.linkedin.com/company/the-hacking-project">Linkedin</a></li>
+  </ul>
+    </nav>
+  </footer>
+  </body>
+
+  
+</html>
