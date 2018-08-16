@@ -30,14 +30,14 @@
         </nav>
     </header>
     
-    <div> Si vous etes intéresser par le codage  ou vous avez envie de créer un site pour votre association/entreprise, vous etes les bienvenu chez moi 
+    <div> Si vous etes intéresser par le codage ou vous avez envie de créer un site pour votre association/entreprise, vous etes les bienvenu chez moi 
      <div class="cover">
     <div class="text">
    <h1> Apprends a coder </h1>
    
    <h2> Gratuitement, en 3 mois </h2>
    
-   <p> Tu va apprendre HTML, CSS, Ruby, Rails, JavaScript et biens plus encore ! </p>
+   <p> Tu vas apprendre HTML, CSS, Ruby, Rails, JavaScript et biens plus encore ! </p>
    <h3>Inscrivez-vous à notre newsletter !</h3>
    <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
       <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
