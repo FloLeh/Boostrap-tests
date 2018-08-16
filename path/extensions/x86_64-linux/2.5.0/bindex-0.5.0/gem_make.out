@@ -1,0 +1,15 @@
+current directory: /home/bertyn/Documents/Formation_THP/html_and_css/growth-hacking-project/path/gems/bindex-0.5.0/ext/bindex
+/usr/bin/ruby2.5 -r ./siteconf20180816-2766-1u7yaw3.rb extconf.rb
+creating Makefile
+
+current directory: /home/bertyn/Documents/Formation_THP/html_and_css/growth-hacking-project/path/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/bertyn/Documents/Formation_THP/html_and_css/growth-hacking-project/path/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/bertyn/Documents/Formation_THP/html_and_css/growth-hacking-project/path/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20180816-2766-9xr61u/bindex
