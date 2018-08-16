@@ -14,6 +14,6 @@ class EmailapiController < ApplicationController
         status: "subscribed"
       }
     )
-    redirect_to '/', success: "Vous êtes inscrit à la Newsletter"
+    redirect_to request.referrer, success: "Vous êtes inscrit à la Newsletter !"
   end
 end

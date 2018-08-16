@@ -1,9 +1,106 @@
-<h1>Get My Awesome News Letter</h1>
-<p>Give me your email and keep up to date on my cat's thoughts.</p>
-<%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
-   <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
-   <%= submit_tag("Sign me up!") %>
-<% end %>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124055473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<p>This a standard page, you can see others :</p>
-<a href=<%= xXnicobgdu44Xx_path %>>Nico's one</a>
+  gtag('config', 'UA-124055473-1');
+</script>
+
+  </head>
+<div class="page-loader">
+    <div class="page-loader-inner">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+</div>
+<!-- Preloader end-->
+
+<!-- Header-->
+<header class="header header-transparent">
+    <div class="container-fluid">
+        <!-- Brand-->
+        <div class="inner-header w-25"><a class="inner-brand" href="index.html">The Hacking Project</a></div>
+        <!-- Navigation-->
+        </div>
+    </div>
+</header>
+<!-- Header end-->
+
+<!-- Wrapper-->
+<div class="wrapper">
+    <section class="module-cover parallax fullscreen text-center" data-background="assets/images/module-5.jpg" data-overlay="0.65" data-gradient="">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 m-auto">
+                  <div class="m-b-20 text-center">
+                    <h3>Get My Awesome News Letter</h3>
+                    <p>Give me your email and keep up to date on my cat's thoughts.</p>
+                    <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
+                    <div class="form-group">
+                       <%= email_field(:email, :address, {class: "form-control",id: "email", placeholder: "email address"}) %>
+                    </div>
+                       <%= submit_tag("Sign me up!", class: "btn btn-block btn-round btn-brand") %>
+                    <% end %>
+
+                    <p>This a standard page, you can see others :</p>
+                    <a href=<%= xXnicobgdu44Xx_path %>>Nico's one</a>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+<!-- Wrapper end-->
+<!-- Off canvas-->
+<div class="off-canvas-sidebar">
+    <div class="off-canvas-sidebar-wrapper">
+        <div class="off-canvas-header"><a class="off-canvas-close" href="#"><span class="ti-close"></span></a></div>
+        <div class="off-canvas-content">
+            <!-- Text widget-->
+            <aside class="widget widget-text">
+                <div class="textwidget">
+                    <p class="text-center"><img src="assets/images/logo-light-2.png" alt="" width="80px"></p>
+                    <p class="text-center">See how users experience your website in realtime to see changes.</p>
+                </div>
+            </aside>
+            <!-- Recent portfolio widget-->
+            <aside class="widget widget-recent-works">
+                <ul>
+                    <li><a href="#"><img src="assets/images/widgets/1.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/5.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/6.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/7.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/8.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/widgets/9.jpg" alt=""></a></li>
+                </ul>
+            </aside>
+            <!-- Social Icons-->
+            <ul class="social-icons text-center">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- To top button--><a class="scroll-top" href="#top"><i class="fas fa-angle-up"></i></a>
+
+<!-- Scripts-->
+<script src="assets/js/custom/jquery-3.2.1.min.js"></script>
+<script src="assets/js/custom/popper.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>
+<script src="assets/js/custom/plugins.min.js"></script>
+<script src="assets/js/custom/custom.min.js"></script>
