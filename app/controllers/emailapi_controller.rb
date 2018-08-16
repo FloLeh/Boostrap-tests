@@ -1,5 +1,4 @@
-require 'dotenv'
-Dotenv.load
+
 
 class EmailapiController < ApplicationController
   def index
