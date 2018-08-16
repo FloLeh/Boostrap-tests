@@ -62,3 +62,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'gibbon', :git => 'https://github.com/amro/gibbon.git'
+gem 'dotenv-rails'

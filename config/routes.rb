@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'landing_pages#index'
+  root to: 'emailapi#index'
+  post 'emailapi/subscribe', to: 'emailapi#subscribe'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
