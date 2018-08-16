@@ -1,9 +1,9 @@
 # README
 ### Lien
-
+ https://thp-nantes-hacking-pro.herokuapp.com/
 
 ### Le Projet
-Ce projet est ne d'une commande de la NASA et du CNRS qui n'avaient pas les ressources suffisantes pour le mener a bien. 
+Ce projet est ne d'une commande de la NASA et du CNRS qui n'avaient pas les ressources suffisantes pour le mener a bien.
 Notre jeudi 16 aout etant libre, nous avons pris le projet.
 
 ### L'equipe
@@ -28,7 +28,7 @@ Ready ? Installes-toi, prends un cafe pour pas t'endormir... euh pour te booster
  - [5] Un mailer qui marche, qui envoie les newsletters régulières avec le Heroku Scheduler
  - [6] Au moins 2 opérations marketing, qui tournent régulièrement grâce au Heroku Scheduler
  - [7] Quelques tests : regarde Capybara pour les tests d'intégrations
- 
+
 | Membre | Poste  | Partie  | Taf  |
 | ------ | ------ | ------ | ------ |
 | Bertyn | pivot (center) | [1], [4], [5] | index 3 / bot meetup  |
@@ -56,8 +56,7 @@ rails '5.2.1'
 
 # Lancement :
 ```sh
-$ git clone 
+$ git clone
 $ bundle install
 $ rails db:create
 ```
-
