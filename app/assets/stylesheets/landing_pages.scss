@@ -1,8 +1,8 @@
 .cover
 {
-    background-image: asset_url('hacking.jpg');
-    
-  height: 700px;
+    // background-image: asset_url('hacking.jpg');
+    background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), asset_url('hacking.jpg');
+  height: 660px;
   width: 100%;
   background-size: cover;
 
@@ -15,5 +15,6 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   height: 450px;
   
 }
