@@ -1,5 +1,3 @@
-
-
 class EmailapiController < ApplicationController
   def index
   end
@@ -14,6 +12,7 @@ class EmailapiController < ApplicationController
         status: "subscribed"
       }
     )
+    send_email(params[:email][:address])
     redirect_to request.referrer, success: "Vous êtes inscrit à la Newsletter !"
   end
 end
